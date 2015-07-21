@@ -31,7 +31,7 @@ public class DatabaseHelperFake {
         vehicle1.setModel("X6");
         vehicle1.setPlate("LOC-1111");
         vehicle1.setRate(350);
-        vehicle1.setStatus(true);
+        vehicle1.setStatus(1);
         vehicle1.setOwnerName("Eurikar Gouffe");
         vehicle1.setOwnerPhone("5148123313");
         vehicle1.setOwnerEmail("eurikar@hotmail.com");
@@ -42,7 +42,7 @@ public class DatabaseHelperFake {
         vehicle2.setModel("RANGE ROVER");
         vehicle2.setPlate("LOC-2222");
         vehicle2.setRate(450);
-        vehicle2.setStatus(true);
+        vehicle2.setStatus(1);
         vehicle2.setOwnerName("Marc Yves St-Victor");
         vehicle2.setOwnerPhone("5148121213");
         vehicle2.setOwnerEmail("myves10@hotmail.com");
@@ -53,7 +53,7 @@ public class DatabaseHelperFake {
         vehicle3.setModel("CAYENNE");
         vehicle3.setPlate("LOC-3333");
         vehicle3.setRate(550);
-        vehicle3.setStatus(true);
+        vehicle3.setStatus(1);
         vehicle3.setOwnerName("Eurikar Gouffe");
         vehicle3.setOwnerPhone("5148123313");
         vehicle3.setOwnerEmail("eurikar@hotmail.com");
@@ -64,7 +64,7 @@ public class DatabaseHelperFake {
         vehicle4.setModel("C63 AMG");
         vehicle4.setPlate("LOC-4444");
         vehicle4.setRate(650);
-        vehicle4.setStatus(true);
+        vehicle4.setStatus(1);
         vehicle4.setOwnerName("Marc Yves St-Victor");
         vehicle4.setOwnerPhone("5148121213");
         vehicle4.setOwnerEmail("myves10@hotmail.com");
@@ -75,7 +75,7 @@ public class DatabaseHelperFake {
         vehicle5.setModel("A7");
         vehicle5.setPlate("LOC-5555");
         vehicle5.setRate(750);
-        vehicle5.setStatus(true);
+        vehicle5.setStatus(1);
         vehicle5.setOwnerName("Eurikar Gouffe");
         vehicle5.setOwnerPhone("5148123313");
         vehicle5.setOwnerEmail("eurikar@hotmail.com");
@@ -85,7 +85,7 @@ public class DatabaseHelperFake {
         vehicle6.setMake("MASSERATI");
         vehicle6.setPlate("LOC-6666");
         vehicle6.setRate(850);
-        vehicle6.setStatus(true);
+        vehicle6.setStatus(1);
         vehicle6.setOwnerName("Marc Yves St-Victor");
         vehicle6.setOwnerPhone("5148121213");
         vehicle6.setOwnerEmail("myves10@hotmail.com");

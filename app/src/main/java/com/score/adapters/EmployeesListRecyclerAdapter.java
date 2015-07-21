@@ -50,7 +50,7 @@ public class EmployeesListRecyclerAdapter extends RecyclerView.Adapter<Employees
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = inflater.inflate(R.layout.list_row_emp_layout, parent, false);
+        View view = inflater.inflate(R.layout.emp_item_layout, parent, false);
         MyViewHolder holder = new MyViewHolder(view);
         return holder;
     }
