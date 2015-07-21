@@ -38,8 +38,8 @@ public class ApplicationHelper {
      */
     public static boolean isEmailValid(String value){
         String EMAIL_PATTERN =
-                "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
-                        + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
+                "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
+        //"^[A-Za-z0-9][A-Za-z0-9_.-]+@[A-Za-z0-9_-]+.[a-z]{2,6}$" Simpler format?
 
         Pattern pattern = Pattern.compile(EMAIL_PATTERN);
         Matcher matcher = pattern.matcher(value);

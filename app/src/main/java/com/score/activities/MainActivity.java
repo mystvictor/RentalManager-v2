@@ -55,9 +55,7 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer
                 (DrawerLayout) findViewById(R.id.drawer_layout), mToolbar);
         mDrawerFragment.setDrawerListener(this);
 
-
-
-        mStackFragments = new Stack<Fragment>();
+        mStackFragments = new Stack<>();
 
         displayView(0);
     }
